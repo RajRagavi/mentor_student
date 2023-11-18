@@ -9,7 +9,7 @@ const PORT =  3000;
 app.use(bodyParser.json());
 app.use('/', routes);
 app.get('/', (req, res) => {
-    // Example local variable
+
     const message = '<h1>Hello, World!</h1>';
 
     // Send the message as a response
