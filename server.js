@@ -7,7 +7,7 @@ const app = express();
 const PORT =  3000;
 
 app.use(bodyParser.json());
-app.use('/mentors', routes);
+app.use('/', routes);
 
 
 
